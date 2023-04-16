@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+background-color: #1e2028;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url('/img/inlogimg3.jpg');
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+
+}
+main{
+ display: flex;
+ flex-direction: column;
+ width: 400px;
+ text-shadow: 10px 10px 10px  rgba(0, 0, 0,5);
+ box-shadow: 10px 10px 10px 10px  rgb(248, 248, 248);
+ height: 80vh;
+ margin-top: 4rem;
+ background-color: transparent;
+
+}
+main header h2{
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin-top: 1rem;
+}
+.adminicon{
+text-align: center;
+}
+.adminicon i{
+    font-size: 10rem;
+    margin-top: 2rem;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.option1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.option1 i{
+   font-size: 2rem;
+   margin-right: 10px;
+}
+.option1 a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.option1 a:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+    border-bottom: 1px solid white;
+}
+.naarhome{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 3rem;
+}
+.naarhome a{
+    text-decoration: none;
+    color: #fff;
+}

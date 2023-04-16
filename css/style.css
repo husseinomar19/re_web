@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+ }
+ html,body{
+    scroll-behavior: smooth;
+ }
+ .main {
+     background-image: url('/img/WhatsApp\ Image\ 2023-02-21\ at\ 6.04.02\ PM.jpeg');
+     background-repeat: no-repeat;
+     background-size: 100vw 100vh;
+     width: 100%;
+     height: 90vh;
+     box-shadow: 5px 5px 5px 10px  rgb(248, 248, 248);
+     border-radius: 5px;
+ }
+ header nav {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+header nav h2{
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Pacifico', cursive;
+   letter-spacing: 1px;
+   color: #fff;
+   padding: 1rem;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    margin: 1rem;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+ul li:hover{
+    border-bottom: 1px solid white;
+}
+#mandje{
+    color: #fff;
+    font-size: 2rem;
+}
+#inloggen{
+    color: #fff;
+    text-decoration: none;
+}
+#inloggen:hover{
+    border-bottom: 1px solid white;
+}
+/* hier komt styling voor stuke tekst over het restuarant */
+.intromain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    flex-direction: column;
+}
+.intro{
+    position: relative;
+    margin-top: 10rem;
+    color: #fff;
+    text-shadow:10px 10px 10px rgb(0, 0, 0);
+    text-align: center;
+    width: 50%;
+}
+.intro h2{
+    text-transform: uppercase;
+}
+.intro i{
+    font-size: 5rem;
+}
+.overonscontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.overons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 5rem;
+}
+.over{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.over ul li{
+    list-style: none;
+}
+.over h2{
+    font-size: 4rem;
+}
+.over i{
+    font-size: 5rem;
+    margin-right: 2rem;
+
+}
+.over p{
+    width: 80%;
+}
+/* hier komt over team section hier voeg ik wat infomatie over het restuarant en  halfheert team*/
+.overteam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.teamtekst{
+    width: 50%;
+}
+#overonstit{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid white;
+    
+}
+.teamimg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamimg img{
+    width: 80%;
+    border: 4px solid white;
+}
+
+/* hier voeg ik de openningstijden en het adress van het restuarant en socail media icon*/
+footer{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    width: 100%;
+}
+.contact h2 {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid white;
+    padding: 10px 0px;
+}
+.media i{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.halfheeftlogo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.halfheeftlogo h2{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    border: 2px solid white;
+    padding: 2rem;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgb(248, 248, 248) ;
+
+}
+/**hier ga ik up button stylen  **/
+#up{
+   color: #fff;
+   position: fixed;
+   bottom: 20px;
+   font-size: 2rem;
+   right: -50px;
+   background-color: black;
+   padding: 0.5rem;
+   border-radius: 50%;
+   transition: 1s;
+   cursor: pointer;
+}
+/* Hier komt styling van aandacht voor ons vlees section**/
+
+.aandacht-vlees{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.vleesimg{
+    width: 50%;
+    height: 70vh;
+}
+.vleesimg img{
+   width: 80%;
+   height: 100%;
+   border: 4px solid white;
+}
+.vlessbeschrijving{
+    width: 50%;
+    color: #fff;
+}
+.vlessbeschrijving h2{
+    border-bottom: 2px solid white;
+    margin-bottom: 1rem;
+}
+.vlessbeschrijving h3{
+    margin-bottom: 0.5rem;
+}
+/** Hier komt contact from **/
+.contactform{
+    width: 100%;
+    height: 40vh;
+    margin: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contactform form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #dde1e7;
+}
+.contactform form textarea{
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+  }
+  
+  .container .label {
+    font-size: 15px;
+    padding-left: 10px;
+    position: absolute;
+    top: 13px;
+    transition: 0.3s;
+    pointer-events: none;
+  }
+  
+  .input {
+    width: 400px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0px 7px;
+    border-radius: 6px;
+    color: black;
+    font-size: 15px;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
+  }
+  
+  .input:focus {
+    border: 2px solid transparent;
+    color: black;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4),
+    inset 3px 3px 10px rgba(0,0,0,1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+  }
+  
+  .container .input:valid ~ .label,
+  .container .input:focus ~ .label {
+    transition: 0.3s;
+    padding-left: 2px;
+    transform: translateY(-35px);
+  }
+  
+  .container .input:valid,
+  .container .input:focus {
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4),
+    inset 3px 3px 10px rgba(0,0,0,1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+  }
+  /*submit button styling ***/ 
+  button {
+    --color: #464647;
+    font-family: inherit;
+    display: inline-block;
+    width: 400px;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    font-size: 17px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  button::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 700px;
+    height: 100px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  button:hover {
+    color: white;
+  }
+  
+  button:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+  button:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+
+
+
+
+
